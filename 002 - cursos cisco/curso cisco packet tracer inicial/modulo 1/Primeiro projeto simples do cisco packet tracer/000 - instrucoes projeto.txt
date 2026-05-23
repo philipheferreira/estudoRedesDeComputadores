@@ -1,0 +1,9 @@
+O objetivo do projeto sera criar um sistema simples de funcionamento de uma internet local
+com um roteador wireless
+Itens utilizados:
+
+1 - router wireless
+1 - laptop
+1 - PC
+1 - webcan
+
