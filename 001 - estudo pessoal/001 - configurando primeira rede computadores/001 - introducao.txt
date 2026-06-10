@@ -1,0 +1,32 @@
+
+
+Equipamentos: 
+
+2 - computadores
+1 - switch
+1 - servidor 
+
+
+conexoes:
+
+	conecatar cabos straigth through
+
+	Na conexao fastEthernet0 do PC 0 conetar ao fastEthernet1
+	Na conexao fastEthernet0 do PC 2 conetar ao fastEthernet2
+	Na conexao fastEthernet0 do Servidor conetar ao fastEthernet3
+
+	No servidor acessar o Desktop, opcao IP configuration e definir um 
+	padrao de enderecamento. Utilizei o 192.168.0.2 como mostra a imagem
+	001
+
+	Irei acessar o PC, desktop, ip configured e definir um IP padrao tambem.
+	192.168.0.3 como mostra a imagem 002
+
+	Foi configurado um IP apenas para 1 deles.
+
+Teste:
+
+	Para testar funcionalidade eu utilizei a parte do Desktop no pc 0,
+	opcao do command prompt e utilizei o comando ping 192.168.0.2
+	Para poder bater o ping no servidor como contextualiza a imagem 003
+
