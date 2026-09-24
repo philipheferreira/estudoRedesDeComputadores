@@ -1,0 +1,134 @@
+
+
+4.1.2 Componentes de uma Rede Doméstica
+Além de um roteador integrado, há muitos tipos diferentes de dispositivos que podem se conectar a uma rede doméstica, como mostrado na figura. Veja alguns exemplos:
+
+Computador desktop
+Sistemas de jogos
+Sistemas de smart TV
+Impressoras
+Scanners
+Câmeras de segurança
+Telefones
+Dispositivos de controle climático
+Com a chegada das novas tecnologias no mercado, cada vez mais funções domiciliares dependerão da rede para fornecer conectividade e controle.
+
+Rede local residencial sem fio (WLAN)
+
+Home Wireless Local Area Network (WLAN)
+
+4.1.3 Roteadores típicos de rede doméstica
+Os roteadores de residências e pequenas empresas normalmente têm dois tipos de porta principais:
+
+	Portas Ethernet
+	Estas portas se conectam à parte interna do switch no roteador. Essas portas são geralmente rotuladas como “Ethernet” ou “LAN”, como mostrado na figura. Todos os dispositivos conectados às portas do switch estão na mesma rede local.
+
+	Portas da Internet
+	Essa porta é usada para conectar o dispositivo a outra rede. A porta Internet conecta o roteador a uma rede diferente das portas Ethernet. Esta porta costuma ser usada para conectar o modem DSL ou a cabo para acessar a Internet.
+
+Além das portas com fio, muitos roteadores residenciais incluem antena sem fio e um ponto de acesso interno sem fio. Por padrão, os dispositivos sem fio se encontram na mesma rede local dos dispositivos que estão conectados fisicamente às portas do switch LAN. A porta Internet é a única que está em uma rede diferente na configuração padrão.
+
+4.2.1 Frequências de LAN sem fio
+As tecnologias sem fio mais usadas em redes residenciais estão nas faixas de frequências não licenciadas de 2,4 GHz e 5 GHz.
+
+Bluetooth é uma tecnologia que utiliza a banda de 2,4 GHz. Embora restrita a comunicações de curto alcance e baixa velocidade, ela tem a vantagem de estabelecer comunicação com vários dispositivos ao mesmo tempo. Essa comunicação um para muitos tornou a tecnologia Bluetooth o método preferido para conectar periféricos de computador, como mouses, teclados e impressoras sem fio. O Bluetooth é útil como método de transmissão de áudio para alto-falantes ou fones de ouvido.
+
+Outras tecnologias que usam as bandas 2,4 GHz e 5 GHz são as modernas tecnologias de LAN sem fio que estão em conformidade com vários padrões IEEE 802.11. A diferença em relação à tecnologia de Bluetooth é que elas transmitem em um nível de potência muito maior, o que lhes dá maior alcance e melhor rendimento. Determinadas áreas do espectro eletromagnético podem ser usadas sem permissão.
+
+A figura mostra onde existem tecnologias sem fio no espectro eletromagnético.
+
+4.2.2 Tecnologias de Redes com fio
+Embora muitos dispositivos de rede doméstica comportem comunicações sem fio, ainda há algumas aplicações em que os dispositivos utilizam uma conexão por switch com fio que não é compartilhada com outros usuários na rede.
+
+O protocolo com fio implementado com mais frequência é o protocolo Ethernet. A Ethernet usa um conjunto de protocolos que permite que os dispositivos de rede se comuniquem através de uma conexão LAN com fio. Uma LAN Ethernet pode conectar dispositivos usando muitos tipos diferentes de mídia de fiação.
+
+Dispositivos conectados diretamente usam um cabo de ligação Ethernet, normalmente par trançado não blindado. Esses cabos podem ser comprados com os conectores RJ-45 já instalados e vêm em vários comprimentos. Casas construídas recentemente podem já ter tomadas Ethernet cabeadas nas paredes. Para residências que não têm cabeamento UTP, há outras tecnologias, como o uso da rede elétrica, que podem distribuir conectividade com fio nos ambientes.
+
+Clique em cada tipo de rede sem fio para obter mais informações.
+
+Cabo categoria 5e
+A categoria 5e é o cabeamento mais comum usado em uma LAN. O cabo é composto de 4 pares de fios que são trançados para reduzir a interferência elétrica.
+
+
+Cabo coxial
+O cabo coaxial possui um fio interno circundado por uma camada isolante tubular, que é então circundada por uma blindagem condutora tubular. A maioria dos cabos coaxiais também possui uma capa ou um revestimento de isolamento externo.
+
+
+Cabo de Fibra-optica
+O cabo de fibra óptica pode ser de vidro ou plástico com diâmetro aproximadamente igual ao de um cabelo humano e pode transportar informações digitais em velocidades muito altas por longas distâncias. Cabo de fibra óptica têm uma largura de banda muito alta, o que permite transportar grandes quantidades de dados.
+
+
+4.3.1 Redes Wi-Fi
+Foram desenvolvidos vários padrões para garantir a comunicação entre dispositivos sem fio. Eles especificam o espectro de RF usado, as taxas de dados, o modo como as informações são transmitidas, etc. O principal organismo responsável pela criação de padrões técnicos sem fio é o IEEE (Instituto dos Engenheiros Eletricistas e eletrônicos)
+O padrão IEEE 802.11 controla o ambiente WLAN. Algumas alterações no padrão IEEE 802.11 descrevem as características dos diferentes padrões de comunicação sem fio. Os padrões sem fio de LANs usam as bandas de frequência de 2,4 GHz e 5 GHz. Coletivamente, essas tecnologias são conhecidas como Wi-Fi.
+
+Outro organismo, conhecido como Wi-Fi Alliance, é responsável por testar dispositivos de LAN sem fio de diferentes fabricantes. O logotipo de Wi-Fi em um dispositivo significa que esse equipamento atende aos padrões e deve operar com outros dispositivos que usam o mesmo padrão.
+
+Os padrões sem fio estão melhorando continuamente a conectividade e a velocidade das redes Wi-Fi. É importante saber quando novos padrões serão introduzidos porque os fabricantes de dispositivos sem fio implementarão esses novos padrões rapidamente em novos produtos.
+
+Você tem uma rede sem fio na sua casa? Você sabe quais padrões são compatíveis com o seu roteador sem fio?
+
+4.3.2 Configurações de rede sem fio
+A interface de Configurações sem fio básicas do Packet Tracer é mostrada na figura. Os roteadores sem fio que usam os padrões 802.11 têm várias configurações que devem ser ajustadas. Estas configurações incluem:
+
+Modo de rede:
+Determina o tipo de tecnologia que deve ser suportada. Por exemplo,802.11b, 802.11g,802.11n ou Mixed Mode (Modo misto).
+
+Nome da rede (SSID):
+Usada para identificar a WLAN. Todos os dispositivos que desejam participar na WLAN devem ter o mesmo SSID.
+
+Canal Padrao:
+Especifica o canal no qual a comunicação ocorrerá. Por padrão, é configurado para Automático para permitir que o ponto de acesso (AP) determine o melhor canal a usar.
+
+Broadcast de SSID:
+Determina se o SSID será transmitido para todos os dispositivos dentro do intervalo. Por padrão, é configurado para Ativado.
+
+Observação: SSID significa Identificador do Conjunto de Serviços
+
+Modo de rede
+
+O protocolo 802.11 pode fornecer melhor taxa de trasnferência, dependendo do ambiente de rede sem fio. Se todos os dispositivos sem fio se conectarem com o mesmo padrão 802.11, poderão ser obtidas as velocidades máximas desse padrão. Se o ponto de acesso estiver configurado para aceitar apenas um padrão 802.11, os dispositivos que não usarem esse padrão não poderão se conectar ao access point.
+
+Um ambiente de rede sem fio com modo misto pode incluir dispositivos que utilizem qualquer padrão Wi-Fi atual. Esse ambiente oferece acesso fácil para dispositivos antigos que precisam de uma conexão sem fio, mas não são compatíveis com os padrões mais recentes.
+
+Ao criar uma rede sem fio, é importante que os componentes sem fio se conectem à WLAN apropriada. Isso é feito por meio do SSID.
+
+O SSID é uma string alfanumérica que diferencia maiúsculas e minúsculas até 32 caracteres. Ele é enviado no cabeçalho de todos os quadros transmitidos pela WLAN. O SSID serve para informar a dispositivos sem fio, chamados estações sem fio (STA), qual WLAN eles pertencem e com quais outros dispositivos eles podem se comunicar.
+
+Usamos o SSID para identificar uma rede sem fio específica É basicamente o nome da rede. Roteadores sem fio usualmente transmitem seu SSIDs configurados por default O broadcast SSID permite que outros dispositivos e clientes sem fio detectem automaticamente o nome da rede sem fio. Se o broadcast SSID estiver desativado, insira manualmente o SSID nos dispositivos sem fio.
+
+A desativação do broadcast SSID pode dificultar a detecção da rede sem fio para clientes legítimos. Entretanto, simplesmente desativar o broadcast SSID não é suficiente para evitar que clientes não autorizados se conectem à rede sem fio. Todas as redes sem fio devem usar a criptografia mais forte disponível para restringir o acesso não autorizado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+foco da aula para maria
+cap 1 - mundo conectado
+
+cap 2 - Componentes, tipos e conexoes de rede. explicar os tipos de rede, componentes e conexoes
+
+cap 3 - Redes sem fio e moveis
+
+cap 4 - construindo uma rede domestica
+
+cap 5 - principios de comunicacao
+

@@ -1,0 +1,75 @@
+1.1.3 Quem é o dono da Internet?
+A internet não é de propriedade de nenhum indivíduo ou grupo. A Internet é um conjunto mundial de redes interconectadas (inter-rede ou Internet), que cooperam entre si para trocar informações usando padrões comuns. Através de fios de telefone, cabos de fibra óptica, transmissões sem fio e links de satélite, os usuários da Internet podem trocar informações de várias formas, como mostrado na figura.
+
+Tudo o que você acessa on-line está localizado em algum lugar da Internet global. Sites de mídias sociais, jogos de múltiplos jogadores, centros de mensagens que fornecem e-mail, cursos on-line – todos esses destinos da Internet estão conectados a redes locais que enviam e recebem informações através da Internet.
+
+1.1.4 Redes locais
+Existem redes locais de diversos tamanhos. Elas podem variar desde redes simples com apenas dois computadores até redes que conectam milhões de dispositivos. As redes instaladas em pequenos escritórios ou em residências e escritórios domésticos são conhecidas como redes SOHO (Pequeno Escritório Doméstico). Redes SOHO compartilhamento recursos, tais como: impressoras, documentos, fotos e músicas, entre alguns computadores locais.
+
+Grandes redes empresariais podem ser usadas para anunciar e vender produtos, encomendar suprimentos e se comunicar com os clientes. A comunicação em rede é geralmente mais eficiente e menos dispendiosa que formas de comunicação tradicionais, como correio normal ou ligações de longa distância. As redes permitem comunicação rápida (por e-mail e mensagens instantâneas, por exemplo), além de consolidação e acesso a informações armazenadas em servidores de rede.
+
+As redes SOHO e empresariais normalmente fornecem uma conexão compartilhada com a Internet. A Internet é considerada "rede de redes" porque é formada literalmente por milhares de redes locais conectadas entre si.
+
+1.1.5 Dispositivos móveis
+A Internet conecta mais dispositivos de computação do que apenas computadores desktop e laptops. Existem dispositivos ao redor com os quais você pode interagir diariamente que também estão conectados à Internet. Isso inclui dispositivos móveis, dispositivos residenciais e vários outros dispositivos conectados.
+
+1.2.2 O Bit
+Você sabia que computadores e redes só trabalham com dígitos binários, zeros e uns? Pode ser difícil imaginar que todos os nossos dados são armazenados e transmitidos como uma série de bits. Cada bit pode ter apenas dois valores possíveis: 0 ou 1. O termo bit é uma abreviação de "dígito binário" e representa a menor parte de dados. Os seres humanos interpretam palavras e imagens; os computadores interpretam apenas padrões de bits.
+
+Um bit é armazenado e transmitido como um entre dois estados distintos possíveis. Isso pode incluir duas direções de magnetização, dois níveis diferentes de corrente ou voltagem, dois níveis diferentes de intensidade da luz ou qualquer outro sistema físico com dois estados distintos. Por exemplo, um interruptor de luz pode estar ligado ou desligado; na representação binária, esses estados corresponderiam a 1 e 0, respectivamente.
+
+Cada dispositivo de entrada (mouse, teclado, receptor ativado por voz) converte a interação humana em código binário para a CPU processar e armazenar. Cada dispositivo de saída (impressora, alto-falante, monitor, etc.) converte os dados binários de volta a um formato reconhecido pelos seres humanos. Dentro do computador, todos os dados são processados e armazenados como binários.
+
+Os computadores usam códigos binários para representar e interpretar letras, números e caracteres especiais com bits. Um código muito usado é o ASCII (American Standard Code for Information Interchange). Com o ASCII, cada caractere é representado por oito bits. Por exemplo:
+
+Letra maiúscula: A = 01000001
+Número: 9 = 00111001
+Caractere especial: # = 00100011
+Cada grupo de oito bits, como as representações de letras e números, corresponde a um byte.
+
+Os códigos podem ser usados para representar praticamente qualquer tipo de informação digital: dados de computador, gráficos, fotos, voz, vídeo e música.
+
+Na figura, insira até cinco caracteres no campo Characters. Em seguida, clique no botão Mostre-me ver a conversão de bits do ASCII. Clique no botão Redefinir para inserir um grupo diferente de caracteres.
+
+1.2.3 Métodos comuns de transmissão de dados
+Depois que os dados são transformados em uma série de bits, eles devem ser convertidos em sinais que possam ser enviados através da mídia de rede para o destino. Mídia significa o meio físico em que os sinais são transmitidos. Alguns exemplos de mídia são fio de cobre, cabo de fibra óptica e ondas eletromagnéticas pelo ar. Um sinal consiste em padrões ópticos ou elétricos que são transmitidos de um dispositivo conectado para outro. Esses padrões representam os bits digitais (ou seja, dados) e trafegam através da mídia desde a origem até o destino como uma série de pulsos de eletricidade, pulsos de luz ou ondas de rádio. Os sinais podem ser convertidos muitas vezes antes de alcançar o destino, à medida que a mídia correspondente muda entre a origem e o destino.
+
+Existem três métodos comuns de transmissão de sinal usados em redes:
+
+Sinais elétricos – A transmissão é obtida pela representação dos dados como pulsos elétricos em fios de cobre.
+Sinais ópticos – A transmissão é obtida pela conversão dos sinais elétricos em pulsos de luz.
+Sinais sem fio – A transmissão é obtida pelo uso de infravermelho, micro-ondas ou ondas de rádio pelo ar.
+Clique em Play na figura para ver uma animação dos três tipos de transmissões de sinal.
+
+Na maioria das residências e das pequenas empresas, os sinais de rede são transmitidos através de fios de cobre (cabos) ou conexões sem fio habilitadas para Wi-Fi. As redes grandes utilizam cabos de fibra óptica para a transmissão confiável de sinais em longas distâncias.
+
+1.3.2 Taxa de transferência
+Assim como a largura de banda, taxa de transferência é a medida da transferência de bits através do meio físico durante um determinado período. Entretanto, devido a vários fatores, geralmente a taxa de transferência não corresponde à largura de banda especificada. Diversos fatores influenciam o taxa de transferência:
+
+A quantidade de dados enviados e recebidos pela conexão
+Os tipos de dados transmitidos
+A latência criada pelo número de dispositivos de rede encontrados entre a origem e o destino
+O termo latência se refere ao tempo necessário para os dados viajarem de um ponto a outro, incluindo atrasos.
+
+As medidas de taxa de transferência não levam em consideração a validade ou a utilidade dos bits transmitidos e recebidos. Muitas mensagens recebidas pela rede não são destinadas a aplicativos específicos de usuário. Por exemplo, as mensagens de controle de rede que regulam o tráfego e corrigem erros.
+
+Em uma inter-rede ou em uma rede com vários segmentos, a taxa de transferência não pode ser mais rápida do que o link mais lento do caminho entre o dispositivo emissor e o dispositivo receptor. Mesmo que todos os segmentos (ou a maioria deles) tenham largura de banda alta, basta um segmento no caminho com largura de banda mais baixa para provocar lentidão no rendimento da rede inteira.
+
+Existem muitos testes de velocidade on-line que podem revelar a taxa de transferência de uma conexão com a Internet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
